@@ -21,3 +21,12 @@ metadata:
   labels:
     istio-injection: enabled
     goldilocks.fairwinds.com/enabled: 'true'
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: dev
+  labels:
+    istio-injection: enabled
+    goldilocks.fairwinds.com/enabled: 'true'
+
